@@ -1,11 +1,10 @@
 def sum_even_fibonacci_numbers(max):
     a, b = 2, 8
     s = 0
-    while True:
-        if a > max:
-            return s
+    while a <= max:
         s += a
         a, b = b, a + 4 * b
+    return s
 
 
 if __name__ == '__main__':
