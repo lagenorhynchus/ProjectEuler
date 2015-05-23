@@ -2,10 +2,9 @@ def largest_prime_factor(n):
     prime_factors = []
     divisor = 2
     while divisor <= n:
-        q, r = divmod(n, divisor)
-        if r == 0:
+        if n % divisor == 0:
             prime_factors.append(divisor)
-            n = q
+            n //= divisor
         else:
             divisor += 1
     return prime_factors[-1]
