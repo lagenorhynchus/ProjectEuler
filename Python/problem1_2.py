@@ -12,7 +12,7 @@ class SumMultiples():
             return m * n * (n + 1) // 2
         return (calc(self.a) +
                 calc(self.b) -
-                calc(int(self.a * self.b / gcd(self.a, self.b))))
+                calc(self.a * self.b // gcd(self.a, self.b)))
 
 
 if __name__ == '__main__':
