@@ -29,7 +29,7 @@ public class Problem1_2 {
   }
 
   public static void main(String[] args) {
-    SumMultiples sm = new SumMultiples(3, 5);
+    SumMultiples sm = new SumMultiples(3L, 5L);
     System.out.println(sm.result(1_000L));
   }
 }
