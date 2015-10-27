@@ -4,11 +4,9 @@ object Problem1 {
     m * n * (n + 1) / 2
   }
 
-  def sumMultiplesOf3And5(end: BigInt): BigInt = {
+  def sumMultiplesOf3And5(end: BigInt): BigInt =
     sumMultiples(3, end) + sumMultiples(5, end) - sumMultiples(15, end)
-  }
 
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit =
     println(sumMultiplesOf3And5(1000))
-  }
 }

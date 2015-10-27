@@ -7,7 +7,6 @@ object Problem1_3 {
     calc(a) + calc(b) - calc(a * b / (a gcd b))
   }
 
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit =
     println(sumMultiples(3)(5)(1000))
-  }
 }
