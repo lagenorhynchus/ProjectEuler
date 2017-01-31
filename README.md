@@ -1,4 +1,4 @@
 ProjectEuler
 ============
 
-[Project Euler](https://projecteuler.net)の問題解答。
+Solutions to the problems from [Project Euler](https://projecteuler.net).
